@@ -6,3 +6,18 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+.navbar {
+  display: flex;
+  position: fixed;
+}
+nav > ul {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+}
+.spotify-logo {
+  width: 18%;
+}
