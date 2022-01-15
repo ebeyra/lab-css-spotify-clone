@@ -9,15 +9,27 @@ White: #FFF
 
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
-.navbar {
+nav {
   display: flex;
   position: fixed;
+  flex-direction: row;
 }
-nav > ul {
-  list-style-type: none;
+.nav-links > li > a {
   text-decoration: none;
+  color: black;
   font-family: "Varela Round", sans-serif;
+  font-size: 2.5rem;
+}
+.nav-links > li {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: right;
 }
 .spotify-logo {
-  width: 18%;
+  width: 15%;
+  height: 15%;
 }
