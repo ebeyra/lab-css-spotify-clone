@@ -53,7 +53,6 @@ body {
   position: static;
 }
 .first-headline {
-  position: relative;
   vertical-align: middle;
   padding-top: 200px;
   text-align: center;
@@ -72,9 +71,13 @@ body {
   font-family: "Varela Round", sans-serif;
   font-size: 3rem;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-color: mediumseagreen;
   padding: 40px 0;
+}
+.second-headline hr {
+  color: mediumseagreen;
+  border: solid;
+  width: 415px;
+  margin-top: 0;
 }
 .features {
   display: flex;
@@ -101,4 +104,47 @@ body {
 #nicebox h2 {
   font-size: 2.2rem;
   color: mediumseagreen;
+}
+
+.green-section {
+  background-color: mediumseagreen;
+  padding: 75px 100px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position: center;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  margin: 50px;
+}
+.kanye-slogan h2 {
+  font-size: 3rem;
+}
+.kanye-slogan hr {
+  margin-left: 0;
+  width: 615px;
+  border: solid;
+  margin-top: 0;
+}
+
+.green-section h3 {
+  font-size: 2rem;
+  padding: 20px 0;
+}
+.green-section p {
+  font-size: 1.3rem;
+  width: 320px;
+}
+
+.white-spotify-icon {
+  width: 175px;
+  display: flex;
+  position: static;
+  margin-left: 500px;
+}
+.app-screenshot {
+  width: 400px;
+  display: flex;
+  position: static;
+  margin-left: 800px;
 }
