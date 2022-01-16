@@ -42,19 +42,66 @@ body {
 
 .landing {
   background-image: url("../images/landing.jpg");
+  background-size: 100%;
   background-position: center;
-  background-size: cover;
-  position: relative;
   width: 1700px;
   height: 1000px;
   color: white;
   font-family: "Varela Round", sans-serif;
   font-size: 3rem;
+  position: static;
 }
 .first-headline {
+  position: relative;
+  vertical-align: middle;
+  padding-top: 200px;
   text-align: center;
 }
+.first-headline-text {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 200px;
+  text-align: center;
+  width: 800px;
+  margin: 0 445px;
+}
 
-h1 {
-  line-height: 104px;
+.second-headline {
+  font-family: "Varela Round", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: limegreen;
+  padding: 40px 0;
+}
+
+.features {
+}
+
+#songs {
+  width: 200px;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+}
+.music-logo {
+  width: 100px;
+}
+
+#hd-music {
+  width: 200px;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+}
+.hd-icon {
+  width: 100px;
+}
+
+#stream {
+  width: 200px;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+}
+.devices {
+  width: 100px;
 }
