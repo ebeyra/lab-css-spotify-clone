@@ -76,10 +76,7 @@ body {
   padding: 40px 0;
 }
 
-.features {
-}
-
-#songs {
+#nicebox {
   width: 200px;
   font-family: "Varela Round", sans-serif;
   text-align: center;
@@ -87,21 +84,9 @@ body {
 .music-logo {
   width: 100px;
 }
-
-#hd-music {
-  width: 200px;
-  font-family: "Varela Round", sans-serif;
-  text-align: center;
-}
 .hd-icon {
   width: 100px;
 }
-
-#stream {
-  width: 200px;
-  font-family: "Varela Round", sans-serif;
-  text-align: center;
-}
-.devices {
+.nicebox-image {
   width: 100px;
 }
